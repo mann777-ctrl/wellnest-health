@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WellNest Health – Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./Capstone_Project.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="container">
+      <div class="logo">WellNest Health</div>
+      <nav>
+        <ul>
+          <li><a href="./Capstone_Project.html">Home</a></li>
+          <li><a href="./AboutUs_capstone.html">About Us</a></li>
+
+          <li><a href="./services_capstone.html">Services</a></li>
+          <li><a href="./doctors_capstone.html">Doctors</a></li>
+          <li><a href="./ContactPage_capstone.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div style="clear: both;"></div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Your Health. Our Mission.</h1>
+        <p>At WellNest Health, we believe in caring for you like family. Reliable doctors, modern facilities, and a friendly team ready to support your well-being.</p>
+    
+        <!-- APPOINTMENT SECTION -->
+
+
+    <!-- Book Appointment Button -->
+    <a href="appointment.html" class="book-btn">Book an Appointment</a>
+
+    <!-- Appointment Form (Initially Hidden) -->
+
+
+
+
+<!-- SCRIPT -->
+<script>
+  const openFormBtn = document.getElementById('openFormBtn');
+  const appointmentForm = document.getElementById('appointmentForm');
+  const successMessage = document.getElementById('successMessage');
+
+  openFormBtn.addEventListener('click', () => {
+    appointmentForm.classList.toggle('hidden');
+    successMessage.classList.add('hidden');
+  });
+
+  appointmentForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    appointmentForm.classList.add('hidden');
+    successMessage.classList.remove('hidden');
+  });
+</script>
+
+      </div>
+      <div class="hero-image">
+        <img src="https://www.priviahealth.com/wp-content/uploads/2019/09/03_20_17_Why-the-Doctor-Patient-Relationship-is-Important-e1530037975292-1200x800.jpg" alt="Doctor with patient">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="https://previews.123rf.com/images/stokkete/stokkete1803/stokkete180300331/96977361-doctor-and-nurse-examining-patient-s-medical-records-and-medical-team-working-on-the-background.jpg" alt="Primary Care">
+          <h3>Primary Care</h3>
+          <p>Comprehensive health check-ups, preventive care, chronic condition support.</p>
+        </div>
+        <div class="card">
+          <img src="https://vidhilegalpolicy.in/wp-content/uploads/2023/04/iStock-1418999473.jpg" alt="Telehealth">
+          <h3>Telehealth Visits</h3>
+          <p>Consult with our doctors online from the comfort of your home.</p>
+        </div>
+        <div class="card">
+          <img src="https://www.sumnercollege.edu/wp-content/uploads/2021/01/Patiant-Care.png" alt="Wellness & Preventive">
+          <h3>Wellness & Preventive</h3>
+          <p>Programs to keep you healthy, including diet advice, fitness plans & more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+   <!-- ABOUT -->
+  <!-- ABOUT -->
+<section class="about">
+  <div class="container about-content">
+
+    <div class="about-image">
+      <img src="https://www.fallbrookmedicalcenter.com/wp-content/uploads/2025/01/Your-Care-Team-How-Team-Based-Healthcare-Enhances-Patient-Care.webp" alt="Clinic team caring for patient">
+    </div>
+
+    <div class="about-text">
+      <h2>About WellNest Health</h2>
+      <p>Founded with a vision to make healthcare personal, accessible and local. Our team of experienced doctors and health professionals work together to understand your needs and provide care that goes beyond treatment.</p>
+      <p>We believe in quality time, friendly service and modern solutions tailored for you and your family.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Social Media Section -->
+<div class="social-media">
+  <a href="https://facebook.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+  </a>
+  <a href="https://instagram.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+  </a>
+  <a href="https://twitter.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+  </a>
+</div>
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 WellNest Health • All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
