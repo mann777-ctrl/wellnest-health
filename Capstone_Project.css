@@ -339,21 +339,7 @@ footer {
   padding-left: 40px;
 }
 
-/* Mobile Separation */
-@media (max-width: 0px) {
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .about-text {
-    padding-left: 0;
-  }
-
-  .about-image {
-    text-align: center;
-  }
-}
 
 
 
