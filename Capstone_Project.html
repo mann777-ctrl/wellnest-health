@@ -24,7 +24,6 @@
           <li><a href="./ContactPage_capstone.html">Contact</a></li>
         </ul>
       </nav>
-      <div style="clear: both;"></div>
     </div>
   </header>
 
@@ -47,22 +46,7 @@
 
 
 <!-- SCRIPT -->
-<script>
-  const openFormBtn = document.getElementById('openFormBtn');
-  const appointmentForm = document.getElementById('appointmentForm');
-  const successMessage = document.getElementById('successMessage');
 
-  openFormBtn.addEventListener('click', () => {
-    appointmentForm.classList.toggle('hidden');
-    successMessage.classList.add('hidden');
-  });
-
-  appointmentForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    appointmentForm.classList.add('hidden');
-    successMessage.classList.remove('hidden');
-  });
-</script>
 
       </div>
       <div class="hero-image">
