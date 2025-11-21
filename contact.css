@@ -6,10 +6,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background: #F5F9FC;
-  color: #333;
-}
 
 .container {
   width: 90%;
@@ -21,7 +17,7 @@ body {
 header {
   background-color: #0A6EBD;
   color: white;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 
 .logo {
