@@ -134,18 +134,6 @@ footer {
   margin-top: 40px;
 }
 
-/* Mobile */
-@media (max-width: 0px) {
-  .contact-box {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .contact-info,
-  .contact-form {
-    width: 100%;
-  }
-}
 nav ul li a {
     text-decoration: none;
 }

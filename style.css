@@ -193,25 +193,7 @@ nav ul li a {
 }
 
 /* Responsive Design */
-@media (max-width: 0px) {
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .about-text {
-    text-align: center;
-    padding: 0;
-  }
-
-  .about-image {
-    text-align: center;
-  }
-
-  .about-image img {
-    max-width: 100%;
-  }
-}
 
 
 /* Footer */
@@ -224,29 +206,7 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 0px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .hero-text {
-    padding: 10px;
-  }
-
-  .hero-image {
-    margin-top: 20px;
-  }
-
-  .about {
-    flex-direction: column;
-  }
-
-  .about img,
-  .about .about-text {
-    width: 100%;
-  }
-}
 /* Appointment Section */
 .appointment {
   padding: 60px 0;

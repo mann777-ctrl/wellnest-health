@@ -112,21 +112,4 @@ footer {
   margin-top: 40px;
 }
 
-/* For Mobile */
-@media (max-width: 0px) {
-  .doctor-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
-nav ul li a {
-    text-decoration: none;
-}
-#active{
-    text-decoration: none;
-}
-* {
-  
-  font-family: 'Poppins', sans-serif;
-}
