@@ -40,11 +40,9 @@ nav ul {
 nav ul li a {
   color: white;
   font-weight: 500;
+  text-decoration: none;
 }
 
-nav ul li a.active {
-  border-bottom: 2px solid white;
-}
 
 /* Doctors Section */
 .doctors {
