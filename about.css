@@ -4,7 +4,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #F5F9FC;
-  color: #333;
+  
 }
 
 
@@ -39,8 +39,6 @@ nav ul li a {
   color: white;
   font-weight: 500;
 }
-
-.active { text-decoration: underline; }
 
 /* Sections */
 section {

@@ -9,7 +9,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  color: #333333;
   background-color: #F5F9FC;
 }
 
@@ -163,14 +162,11 @@ nav ul li a {
 
 .about-image {
   flex: 1;
-  text-align: right;
 }
 
 .about-image img {
   width: 100%;
-  max-width: 480px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .about-text {
@@ -205,14 +201,9 @@ footer {
   margin-top: 40px;
 }
 
-/* Responsive Design */
 
 /* Appointment Section */
-.appointment {
-  padding: 60px 0;
-  background-color: #F5F9FC;
-  text-align: center;
-}
+
 
 .appointment h2 {
   color: #0A6EBD;
@@ -220,10 +211,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.appointment p {
-  color: #555;
-  margin-bottom: 30px;
-}
+
 
 /* Book Button */
 .book-btn {
@@ -234,30 +222,21 @@ footer {
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition-duration: 0.3s;
+
 }
+
 
 .book-btn:hover {
   background-color: #084d8a;
+  opacity: 0.9;
+
 }
 
-/* Form Styling */
-#appointmentForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-  gap: 15px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-#appointmentForm label {
-  align-self: flex-start;
-  font-weight: 500;
-  color: #333;
-}
+
+
+
 /* Social Media Icons */
 .social-media {
   text-align: center;
@@ -280,21 +259,7 @@ footer {
   
   opacity: 0.8;
 }
-/* Proper About Section Layout */
-.about-content {
-  flex-direction: row;
-  text-align: left;
-}
 
-.about-image {
-  order: 1;
-  text-align: left; /* make image align left */
-}
-
-.about-text {
-  order: 2;
-  padding-left: 40px;
-}
 
 
 
