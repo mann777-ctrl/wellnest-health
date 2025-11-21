@@ -1,0 +1,67 @@
+/* Page background and text styling */
+body {
+  background-color: skyblue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Heading style */
+h2 {
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+/* Square form container */
+.appointment-form {
+  background-color: white;
+  width: 350px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+/* Label styling */
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #003366;
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #003366;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: navy;
+}
+
