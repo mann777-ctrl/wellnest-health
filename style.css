@@ -155,10 +155,6 @@ nav ul li a {
   gap: 40px;
 }
 
-/* Reverse layout for About section */
-.about-content.reverse {
-  flex-direction: row-reverse;
-}
 
 .about-image {
   flex: 1;
