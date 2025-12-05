@@ -114,3 +114,7 @@ nav ul li a {
 #active{
     text-decoration: none;
 }
+/* Smooth scale animation */
+.scale-item {
+  transition: transform 0.3s ease;
+}

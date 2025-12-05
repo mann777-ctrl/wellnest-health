@@ -189,3 +189,7 @@ nav ul li a {
   background-color: #ffcc00;
   color: black;
 }
+/* Smooth scale animation */
+.scale-item {
+  transition: transform 0.3s ease;
+}

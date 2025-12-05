@@ -108,5 +108,9 @@ footer {
   padding: 30px 0;
   margin-top: 40px;
 }
+/* Smooth scale animation */
+.scale-item {
+  transition: transform 0.3s ease;
+}
 
 
