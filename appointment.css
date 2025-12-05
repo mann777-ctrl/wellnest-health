@@ -60,8 +60,75 @@ button {
   transition: background-color 0.3s;
 }
 
-/* Hover effect for button */
 button:hover {
   background-color: navy;
 }
 
+/* ---------------------------- */
+/* Floating Theme Toggle Button */
+/* ---------------------------- */
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  transform: scale(1.1);
+}
+
+/* ---------------------------- */
+/* DARK MODE STYLING */
+/* ---------------------------- */
+.dark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dark h2 {
+  color: white;
+}
+
+.dark .appointment-form {
+  background-color: #333;
+  box-shadow: 0 0 150px rgba(255, 255, 255, 0.2);
+}
+
+.dark label {
+  color: white;
+}
+
+.dark input {
+  background-color: #222;
+  color: white;
+  border-color: white;
+}
+
+.dark button {
+  background-color: black;
+  color: white;
+}
+
+.dark button:hover {
+  background-color: black;
+}
+
+/* Button color change in dark mode */
+.dark .theme-btn {
+  background-color: black;
+  color: white;
+}
+#themeToggle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

@@ -164,3 +164,28 @@ nav ul li a {
   
   opacity: 0.8;
 }
+/* Theme toggle floating button */
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Button color change in light mode */
+.dark .theme-btn {
+  background-color: #ffcc00;
+  color: black;
+}
