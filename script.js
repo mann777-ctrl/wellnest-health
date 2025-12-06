@@ -14,7 +14,7 @@ if (bookBtn) {
   
 
 
-// 7. DOM MANIPULATION - Add interactive hover to service cards
+
 var serviceCards = document.querySelectorAll(".service-cards .card");
 
 serviceCards.forEach(function(card, index) {
